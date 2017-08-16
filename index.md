@@ -99,7 +99,7 @@
 #### 29) run the python code
 ![29.png](29.png?raw=true "Title")
 
-### 30) login in mysql and check the data
+### 30) login in mysql and check the data. sample data..!!
 ![30.png](30.png?raw=true "Title")
 
                                                 Thank you..!!
