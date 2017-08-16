@@ -71,7 +71,7 @@
 #### 23) Create table and make sure you have same number of field as in  CSV.
 ![27.png](27.png?raw=true "Title")
 
-#### 26) For Centos pythom module MySQLdb is not there so install from repo.
+#### 26) Install the MySQL-Python module
 ![28.png](28.png?raw=true "Title")
 
 #### 27) Make the CSV file, here we have replaced spaces with comma
@@ -97,7 +97,7 @@
     cursor.close()
 
 #### 29) run the python code
-![30.png](30.png?raw=true "Title")
+![29_.png](29_.png?raw=true "Title")
 
 ### 30) login in mysql and check the data. sample data..!!
 ![30.png](30.png?raw=true "Title")
