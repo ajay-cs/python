@@ -20,9 +20,32 @@
 #### 7) Check the selinux status
 ![7.png](7.png?raw=true "Title")
 
-#### 8) If selinux status is enabled, please set in disabled in file /etc/selinux/config
+#### 8) If selinux status is enabled, please set in disabled in file the /etc/selinux/config
 ![8.png](8.png?raw=true "Title")
 
+#### 9) We are going to install the mysql community version, so please the mysql repo from http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+![9.png](9.png?raw=true "Title")
 
+#### 10) Install the mysql noarch.rpm, it will add the new repo on your system
+![10.png](10.png?raw=true "Title")
 
+#### 11) Update the newly added repo and dependencies
+![11.png](11.png?raw=true "Title")
+
+#### 12) Mysql installation
+![12.png](12.png?raw=true "Title")
+
+#### 13) Start the mysql server
+![13.png](13.png?raw=true "Title")
+
+#### 14) Check the mysql server status
+![14.png](14.png?raw=true "Title")
+
+#### 15) Follow the secure installation
+![15.png](15.png?raw=true "Title")
+![16.png](16.png?raw=true "Title")
+![17.png](17.png?raw=true "Title")
+
+#### 16) Check if you can login in mysql server with updated password
+![18.png](18.png?raw=true "Title")
 
