@@ -97,7 +97,7 @@
     cursor.close()
 
 #### 29) run the python code
-![29_.PNG](29_.PNG?raw=true "Title")
+![31_.PNG](31.PNG?raw=true "Title")
 
 ### 30) login in mysql and check the data. sample data..!!
 ![30.png](30.png?raw=true "Title")
