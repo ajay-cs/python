@@ -49,3 +49,53 @@
 #### 16) Check if you can login in mysql server with updated password
 ![18.png](18.png?raw=true "Title")
 
+#### 17) By default pip not included with python2.7 and CentOS Base repo not provide same
+![19.png](19.png?raw=true "Title")
+
+#### 18) Add EPEL repo to get pip, pip help to install python modules.
+![20.png](20.png?raw=true "Title")
+
+#### 19) Install the pip package
+![21.png](21.png?raw=true "Title")
+
+#### 20) Check Pip is working fine
+![22.png](22.png?raw=true "Title")
+
+#### 21) Check pip version 
+![23.png](23.png?raw=true "Title")
+
+#### 22) Create a database
+![24.png](24.png?raw=true "Title")
+![25.png](25.png?raw=true "Title")
+
+#### 23) Create table and make sure you have same number of field as in  CSV.
+![26.png](26.png?raw=true "Title")
+
+#### 26) For Centos pythom module MySQLdb is not there so install from repo.
+![27.png](27.png?raw=true "Title")
+
+#### 27) Make the CSV file, here we have replaced spaces with comma
+![28.png](28.png?raw=true "Title")
+
+#### 28) Write the python script to import the data from csv to mysql - csv_mysql.py
+``` #!/usr/bin/python
+import MySQLdb
+import csv
+
+db = MySQLdb.connect(host="pydesk", # The Host
+                      user="root", # username
+                      passwd="x", # password
+                      db="storage") # name of the data base
+
+cursor = db.cursor()
+Query = """ LOAD DATA LOCAL INFILE 'result.csv' INTO TABLE
+storage FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED
+BY '"' Lines terminated by '\n' IGNORE 1 LINES """
+
+cursor.execute(Query)
+db.commit()
+cursor.close()
+
+#### 29) run the python code
+![29.png](29.png?raw=true "Title")
+
