@@ -78,24 +78,26 @@
 ![28.png](28.png?raw=true "Title")
 
 #### 28) Write the python script to import the data from csv to mysql - csv_mysql.py
-``` #!/usr/bin/python
-import MySQLdb
-import csv
+    #!/usr/bin/python
+    import MySQLdb
+    import csv
 
-db = MySQLdb.connect(host="pydesk", # The Host
-                      user="root", # username
-                      passwd="x", # password
-                      db="storage") # name of the data base
+    db = MySQLdb.connect(host="pydesk", # The Host
+                          user="root", # username
+                          passwd="x", # password
+                          db="storage") # name of the data base
 
-cursor = db.cursor()
-Query = """ LOAD DATA LOCAL INFILE 'result.csv' INTO TABLE
-storage FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED
-BY '"' Lines terminated by '\n' IGNORE 1 LINES """
+    cursor = db.cursor()
+    Query = """ LOAD DATA LOCAL INFILE 'result.csv' INTO TABLE
+    storage FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED
+    BY '"' Lines terminated by '\n' IGNORE 1 LINES """
 
-cursor.execute(Query)
-db.commit()
-cursor.close()
+    cursor.execute(Query)
+    db.commit()
+    cursor.close()
 
 #### 29) run the python code
 ![29.png](29.png?raw=true "Title")
 
+### 30) login in mysql and check the data
+![30.png](30.png?raw=true "Title")
