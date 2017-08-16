@@ -66,16 +66,16 @@
 
 #### 22) Create a database
 ![24.png](24.png?raw=true "Title")
-![25.png](25.png?raw=true "Title")
-
-#### 23) Create table and make sure you have same number of field as in  CSV.
 ![26.png](26.png?raw=true "Title")
 
-#### 26) For Centos pythom module MySQLdb is not there so install from repo.
+#### 23) Create table and make sure you have same number of field as in  CSV.
 ![27.png](27.png?raw=true "Title")
 
-#### 27) Make the CSV file, here we have replaced spaces with comma
+#### 26) For Centos pythom module MySQLdb is not there so install from repo.
 ![28.png](28.png?raw=true "Title")
+
+#### 27) Make the CSV file, here we have replaced spaces with comma
+![29.png](29.png?raw=true "Title")
 
 #### 28) Write the python script to import the data from csv to mysql - csv_mysql.py
     #!/usr/bin/python
@@ -97,7 +97,7 @@
     cursor.close()
 
 #### 29) run the python code
-![29.png](29.png?raw=true "Title")
+![30.png](30.png?raw=true "Title")
 
 ### 30) login in mysql and check the data. sample data..!!
 ![30.png](30.png?raw=true "Title")
