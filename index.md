@@ -1,4 +1,4 @@
-## CSV to mysql - using python 2.7.5
+## CSV file to mysql database - using python 2.7.5
 
 You can use the [editor on GitHub](https://github.com/ajay-cs/python/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
