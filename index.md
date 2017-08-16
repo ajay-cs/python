@@ -49,7 +49,7 @@
 #### 16) Check if you can login in mysql server with updated password
 ![18.png](18.png?raw=true "Title")
 
-#### 17) By default pip not included with python2.7 and CentOS Base repo not provide same
+#### 17) By default pip not included with python2.7 and CentOS Base repo.
 ![19.png](19.png?raw=true "Title")
 
 #### 18) Add EPEL repo to get pip, pip help to install python modules.
